@@ -2,17 +2,18 @@
   "name": "rabbit01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "execute": "nodemon producer.js",
-    "consume" : "nodemon consumer.js"
+    "consume": "nodemon consumer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.10.3"
+    "amqplib": "^0.10.3",
+    "axios": "^1.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
